@@ -7,11 +7,7 @@ This project is designed to render rounded corners on the screen in Wayland-enab
 
 **Dependencies**
 
-Arch Linux
-
-`yay -S quickshell`
-
-(if widget still does not work `sudo pacman -S qt6-base qt6-declarative qt6-wayland`)
+Arch Linux - `yay -S quickshell` (if widget does not work `sudo pacman -S qt6-base qt6-declarative qt6-wayland`)
 
 **Install**
 1. `git clone https://github.com/flores666/QuickshellRoundedCorners.git ~/.config/QuickshellRoundedCorners`
