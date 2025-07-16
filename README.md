@@ -14,12 +14,12 @@ Arch Linux
 (if widget still does not work `sudo pacman -S qt6-base qt6-declarative qt6-wayland`)
 
 **Install**
-1. `git clone https://github.com/flores666/HyprlandRoundedCorners.git ~/.config/HyprlandRoundedCorners`
+1. `git clone https://github.com/flores666/QuickshellRoundedCorners.git ~/.config/QuickshellRoundedCorners`
 2. `vim ~/.config/hypr/hyprland.conf` (or open it with your favorite text editor)
-3. Add this line `exec-once = qs -p ~/.config/HyprlandRoundedCorners/shell.qml`
+3. Add this line `exec-once = qs -p ~/.config/QuickshellRoundedCorners/shell.qml`
 4. Restart Hyprland or reset session `hyprctl reload`
 
 **Notes**
 
 - Works only in Wayland and with compositors that support layer-shell (Hyprland, Sway, Wayfire, etc.)
-- To change color `vim ~/.config/HyprlandRoundedCorners/globals/Globals.qml` and change `mainColor` value. Then `hyprctl reload` to see the changes
+- To change color `vim ~/.config/QuickshellRoundedCorners/globals/Globals.qml` and change `mainColor` value. Then `hyprctl reload` to see the changes
