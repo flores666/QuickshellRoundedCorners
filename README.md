@@ -21,4 +21,5 @@ Arch Linux
 
 **Notes**
 
-Works only in Wayland and with compositors that support layer-shell (Hyprland, Sway, Wayfire, etc.)
+- Works only in Wayland and with compositors that support layer-shell (Hyprland, Sway, Wayfire, etc.)
+- To change color `vim ~/.config/HyprlandRoundedCorners/globals/Globals.qml` and change `mainColor` value. Then `hyprctl reload` to see the changes
