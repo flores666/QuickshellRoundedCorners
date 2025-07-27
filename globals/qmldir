@@ -1,2 +1,2 @@
-singleton Globals Globals.qml
+singleton Env Env.qml
 

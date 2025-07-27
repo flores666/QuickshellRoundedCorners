@@ -20,7 +20,7 @@ PanelWindow {
 
 			var radius = 25;
 
-			ctx.fillStyle = Globals.mainColor;
+			ctx.fillStyle = Env.colors.primary;
 			ctx.beginPath();
 			ctx.moveTo(width - radius, 0);
 			ctx.quadraticCurveTo(width, 0, width, radius);
